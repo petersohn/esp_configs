@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "main_controller2",
-    "availabilityTopic": "home/devices/main_controller2/available",
-    "statusTopic": "home/devices/main_controller2/status",
-    "debugTopic": "home/devices/main_controller2/debug",
+    "servicePrefix": "home/devices/main_controller2",
     "interfaces": [
         {
             "type": "output",

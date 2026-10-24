@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "battery_charger",
-    "availabilityTopic": "home/devices/battery_charger/available",
-    "statusTopic": "home/devices/battery_charger/status",
-    "debugTopic": "home/devices/battery_charger/debug",
+    "servicePrefix": "home/devices/battery_charger",
     "analogInputs": [
         {
             "name": "mcp",

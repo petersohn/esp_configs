@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "storage_window_2",
-    "availabilityTopic": "home/devices/storage_window_2/available",
-    "statusTopic": "home/devices/storage_window_2/status",
-    "debugTopic": "home/devices/storage_window_2/debug",
+    "servicePrefix": "home/devices/storage_window_2",
     "interfaces": [
         {
             "type": "cover",

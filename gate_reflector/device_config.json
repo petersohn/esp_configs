@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "gate_reflector",
-    "availabilityTopic": "home/devices/gate_reflector/available",
-    "statusTopic": "home/devices/gate_reflector/status",
-    "debugTopic": "home/devices/gate_reflector/debug",
+    "servicePrefix": "home/devices/gate_reflector",
     "interfaces": [
         {
             "type": "output",

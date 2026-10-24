@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "living_room_window",
-    "availabilityTopic": "home/devices/living_room_window/available",
-    "statusTopic": "home/devices/living_room_window/status",
-    "debugTopic": "home/devices/living_room_window/debug",
+    "servicePrefix": "home/devices/living_room_window",
     "interfaces": [
         {
             "type": "cover",

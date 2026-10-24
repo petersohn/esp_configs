@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "garage_controller",
-    "availabilityTopic": "home/devices/garage_controller/available",
-    "statusTopic": "home/devices/garage_controller/status",
-    "debugTopic": "home/devices/garage_controller/debug",
+    "servicePrefix": "home/devices/garage_controller",
     "interfaces": [
         {
             "type": "output",

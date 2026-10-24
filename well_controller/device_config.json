@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "well_controller",
-    "availabilityTopic": "home/devices/well_controller/available",
-    "statusTopic": "home/devices/well_controller/status",
-    "debugTopic": "home/devices/well_controller/debug",
+    "servicePrefix": "home/devices/well_controller",
     "interfaces": [
         {
             "type": "input",

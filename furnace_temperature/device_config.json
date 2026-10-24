@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "furnaceTemperature",
-    "availabilityTopic": "home/devices/furnaceTemperature/available",
-    "statusTopic": "home/devices/furnaceTemperature/status",
-    "debugTopic": "home/devices/furnaceTemperature/debug",
+    "servicePrefix": "home/devices/furnaceTemperature",
     "interfaces": [
         {
             "type": "dallasTemperature",

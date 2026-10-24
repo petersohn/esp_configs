@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "bedroom_temperature",
-    "availabilityTopic": "home/devices/bedroom_temperature/available",
-    "statusTopic": "home/devices/bedroom_temperature/status",
-    "debugTopic": "home/devices/bedroom_temperature/debug",
+    "servicePrefix": "home/devices/bedroom_temperature",
     "interfaces": [
         {
             "type": "dht",

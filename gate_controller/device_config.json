@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "gate_controller",
-    "availabilityTopic": "home/devices/gate_controller/available",
-    "statusTopic": "home/devices/gate_controller/status",
-    "debugTopic": "home/devices/gate_controller/debug",
+    "servicePrefix": "home/devices/gate_controller",
     "interfaces": [
         {
             "type": "cover",

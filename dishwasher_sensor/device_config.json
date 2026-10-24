@@ -1,9 +1,7 @@
 {
     "debug": true,
     "name": "dishwasher_sensor",
-    "availabilityTopic": "home/devices/dishwasher_sensor/available",
-    "statusTopic": "home/devices/dishwasher_sensor/status",
-    "debugTopic": "home/devices/dishwasher_sensor/debug",
+    "servicePrefix": "home/devices/dishwasher_sensor",
     "interfaces": [
         {
             "type": "counter",
